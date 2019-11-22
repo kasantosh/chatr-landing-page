@@ -45,14 +45,14 @@ body {
 }
 
 .promo-box ul li {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     border-bottom: solid 1px white;
     padding: 0 3rem;
     display: inline-block;
     color: rgb(72, 8, 114);
-    list-style: none;;
+    list-style: none;
 }
 
 .secondary-heading {
