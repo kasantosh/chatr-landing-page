@@ -40,6 +40,7 @@ body {
 }
 
 .promo-box {
+    -webkit-clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
     clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
 }
 
@@ -51,6 +52,7 @@ body {
     padding: 0 3rem;
     display: inline-block;
     color: rgb(72, 8, 114);
+    list-style: none;;
 }
 
 .secondary-heading {
