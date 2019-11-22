@@ -22,7 +22,7 @@ body {
     width: 100vw;
     height: auto;
     background-image: linear-gradient(to bottom right, rgb(143, 24, 173), rgb(72, 8, 114));
-    padding: 2.5rem;
+    padding: 2rem;
     margin: auto;
 }
 
@@ -33,15 +33,15 @@ body {
 
 .chatr-logo {
     width: 15rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .secondary-heading {
     border-top: 1px solid orange;
     border-bottom: 1px solid orange;
     display: inline-block;
-    margin: 2rem;
-    padding: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
     text-align: center;
     
 }
