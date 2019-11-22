@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* box-sizing cancels adding pixels to borders */ }
+  
+  html {
+    font-size: 62.5%;
+
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 2rem;
+}
+
+
+.main {
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(to bottom right, rgb(143, 24, 173), rgb(72, 8, 114));
+    padding: 2.5rem;
+    margin: auto;
+}
+
+.main h1 {
+    font-size: 6rem;
+    
+}
+
+.chatr-logo {
+    width: 15rem;
+    margin-bottom: 5rem;
+}
+
+.secondary-heading {
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.box-1, 
+.box-2 {
+    font-size: 2rem;
+    box-shadow: 1rem 2rem 3rem rgba(black, 0.2);
+}
