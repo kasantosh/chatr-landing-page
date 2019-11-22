@@ -21,19 +21,36 @@ body {
 .main {
     width: 100vw;
     height: auto;
-    background-image: linear-gradient(to bottom right, rgb(143, 24, 173), rgb(72, 8, 114));
+    background-image: linear-gradient(to bottom right, rgba(136, 11, 194, 0.85), rgba(72, 8, 114, 0.85)), url(../img/chinatown.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 2rem;
     margin: auto;
 }
 
 .main h1 {
     font-size: 6rem;
+    text-transform: uppercase;
     
 }
 
 .chatr-logo {
     width: 15rem;
     margin-bottom: 3rem;
+}
+
+.promo-box {
+    clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+}
+
+.promo-box ul li {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: solid 1px white;
+    padding: 0 3rem;
+    display: inline-block;
+    color: rgb(72, 8, 114);
 }
 
 .secondary-heading {
