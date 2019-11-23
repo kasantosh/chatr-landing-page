@@ -62,17 +62,11 @@ body {
     display: inline-block;
     color: rgb(72, 8, 114);
     list-style: none;
-
-    @media (max-width: 600px) {
-        .promo-box ul li:not(:last-child) {
-            border-bottom: solid 1px white;
-        }
-    }
 }
 
-
-
-
+.promo-box ul li:not(:last-child) {
+    border-bottom: solid 1px white;
+}
 
 .secondary-heading {
     border-top: 1px solid orange;
