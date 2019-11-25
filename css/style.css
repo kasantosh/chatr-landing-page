@@ -89,3 +89,10 @@ body {
     float: right;
     
 }
+
+
+    /* @media only screen and (max-width: 37.5em) {
+        .map {
+        margin: 3rem auto;
+        }
+    } */
